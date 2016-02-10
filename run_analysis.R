@@ -87,8 +87,8 @@ grouped_mean_std_means <- mean_std_ds %>% ungroup %>% group_by(subject, activity
 
 cat("done\n")
 
-cat("# writing output to 'grouped_mean_std_means.csv...")
+cat("# writing output to 'grouped_mean_std_means.txt...")
 
-write.csv(grouped_mean_std_means,"grouped_mean_std_means.csv", row.names = FALSE)
+write.table(grouped_mean_std_means,"grouped_mean_std_means.txt", row.names = FALSE)
 
 cat("done\n")
