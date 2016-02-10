@@ -5,6 +5,7 @@ variable present in the original dataset.
 The details for steps/recipe taken in the [`run_Analysis.R`](run_analysis.R) script are described in the [codebook](CodeBook.md)
 
 ###Prerequisites
+ **OS** The code is verified and tested on Arch Linux
  You will need to have the `dplyr` package available in your environment 
  in order to run this the `run_analysis.R` script.
 
