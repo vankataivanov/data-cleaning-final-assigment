@@ -14,7 +14,7 @@ The details for steps/recipe taken in the [`run_Analysis.R`](run_analysis.R) scr
 3. Run the `run_analysis.R` script.
 
 ###Output
-1. A csv file named `grouped_mean_std_means.csv`
+1. A text file named `grouped_mean_std_means.txt` containing the result dataset
 2. 3 Datasets loaded into R 
     - the full one
     - one with only the variables of interest

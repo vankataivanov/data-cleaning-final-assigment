@@ -20,6 +20,6 @@ This file contains description of the tidy dataset and the steps made to obtain 
   activities and subjects included.
 1. `mean_std_ds` - a dataset extracted from the full dataset by selecting only the columns with **mean** and **standard deviation** observations
 1. `grouped_mean_std_means` - a dataset obtained from `mean_std_ds` by grouping the data by *person* and then by *activity* and calculating the `mean` for each group. 
-1. `grouped_mean_std_means.csv` - the output file with the tidy dataset written in the current working directory
+1. `grouped_mean_std_means.txt` - the output file with the tidy dataset written in the current working directory
 
 **Note:** The intermediate variables are removed by the script in the process
